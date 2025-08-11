@@ -1,0 +1,79 @@
+:root{
+    --main-color:#37517E;
+}
+
+.herosection{
+    background-color: var(--main-color);
+}
+
+.navbar a{
+    color: white !important;
+}
+.dropdown-menu a {
+    color: black !important;
+}
+
+.animate-img{
+    animation: move 1.5s linear infinite alternate;
+
+}
+@keyframes move{
+    from{
+        transform: translateY(0);
+    }to{
+        transform: translateY(-15px);
+    }
+}
+.text-blue{
+    color: var(--main-color);
+
+}
+.gray-line{
+    width: 150px;
+    height: 2px;
+    background-color: lightgray;
+    margin: auto;
+    position: relative;
+}
+.blue-line{
+    width: 50px;
+    height: 3px;
+    background-color: var(--bs-info);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.work-card{
+    overflow: hidden;
+}
+
+.work-card img{
+    transition: all 0.4s;
+}
+.work-card:hover img{
+    transform: scale(1.1);
+}
+
+.content{
+    z-index: 111;
+}
+
+.work-card:hover .content{
+    transform: translateY(-10px);
+}
+
+.work-card .content{
+    transition: all 0.4s;
+}
+.About{
+    background-image: url(img.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+
+}
+
