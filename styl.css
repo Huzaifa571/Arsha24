@@ -68,12 +68,60 @@
 .work-card .content{
     transition: all 0.4s;
 }
-.About{
-    background-image: url(img.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-   
+
+.image-containor{
+    background: linear-gradient(to right,rgba(55, 81, 126 ,0.5),rgba(55, 81, 126 ,0.7) ), url(https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp) fixed;
+}
+
+.image-animation{
+    overflow: hidden;
+}
+
+.overlay{
+    bottom: -90px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.image-animation:hover .overlay{
+    bottom: 0;
+    transition: all 0.3s;
+}
+
+.socail-icon i{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
 
 }
 
+.socail-icon i:hover{
+    background-color: var(--bs-info);
+    color: white;
+}
+
+.card button:hover{
+    color: white;
+}
+
+.blog-card {
+    overflow: hidden;
+}
+.blog-card img{
+    transition: all 0.3s;
+}
+.blog-card h5,.blog-card a{
+    transition: all 0.3s;
+}
+
+
+.blog-card:hover img{
+    transform: scale(1.1);
+}
+
+.blog-card:hover h5,.blog-card a{
+    color: var(--bs-info);
+}
