@@ -113,7 +113,10 @@
 .blog-card img{
     transition: all 0.3s;
 }
-.blog-card h5,.blog-card a{
+.blog-card h5{
+    transition: all 0.3s;
+}
+.blog-card a{
     transition: all 0.3s;
 }
 
@@ -122,8 +125,11 @@
     transform: scale(1.1);
 }
 
-.blog-card:hover h5 ,.blog-card a{
-    color: var(--bs-info);
+.blog-card:hover h5 {
+    color: var(--bs-info) !important;
+}
+.blog-card:hover a{
+    color: var(--bs-info) !important;
 }
 
 .us-icon{
