@@ -122,6 +122,13 @@
     transform: scale(1.1);
 }
 
-.blog-card:hover h5,.blog-card a{
+.blog-card:hover h5 ,.blog-card a{
     color: var(--bs-info);
+}
+
+.us-icon{
+    font-size: 20px;
+    display: flex;
+    gap: 1rem;
+    
 }
